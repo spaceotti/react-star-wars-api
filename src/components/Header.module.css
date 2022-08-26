@@ -1,0 +1,16 @@
+.masthead {
+    width: 100%;
+    background: #111;
+    color: #fff;
+    padding: 1rem 2rem;
+    margin-left: -2rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.masthead > h1 {
+    flex-basis: 38%;
+    flex-grow: 0;
+    flex-shrink: 1;
+}
