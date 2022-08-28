@@ -4,3 +4,11 @@
   color: #fff;
   padding: 2rem;
 }
+
+.content {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: #222;
+  min-height: 80vh;
+}
