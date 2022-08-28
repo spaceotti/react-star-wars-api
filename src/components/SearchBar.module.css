@@ -1,0 +1,21 @@
+.searchBar {
+    background-color: cornflowerblue;
+    padding: 2rem;
+    margin-inline: -2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchText {
+    font-size: 1.2rem;
+}
+
+.searchBtn {
+    font-size: 1.2rem;
+}
+
+.searchBar p {
+    font-size: 1.2rem;
+    margin-left: 1rem;
+}
