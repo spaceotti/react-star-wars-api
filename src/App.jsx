@@ -1,9 +1,9 @@
 import { useState, useEffect } from "react";
 import styles from "./App.module.css";
 import Header from "./components/Header";
+import Main from "./components/Main";
 import SearchBar from "./components/SearchBar";
 import SearchHistory from "./components/SearchHistory";
-import SearchResults from "./components/SearchResults";
 
 function App() {
   const [terms, setTerms] = useState([]);
@@ -41,7 +41,7 @@ function App() {
       <SearchBar term={terms[0]} addTerm={addTerm} />
       <main className={styles.content}>
         <SearchHistory terms={terms} />
-        <SearchResults results={results} type={dataType} />
+        <Main />
       </main>
     </div>
   );
